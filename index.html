@@ -1,99 +1,11 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> NIKUNJ - Portfolio</title>
+    <title>Nikunj - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Nikunj Panthi</h1>
-            <p>Web Developer</p>
-        </div>
-    </header>
 
-    <section class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Welcome to my portfolio! I am a passionate web developer with expertise in various technologies...</p>
-        </div>
-    </section>
-
-    <section class="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>PHP</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            
-        </div>
-    </section>
-    
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> NIKUNJ - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Nikunj Panthi</h1>
-            <p>Web Developer</p>
-        </div>
-    </header>
-
-    <section class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Welcome to my portfolio! I am a passionate web developer with expertise in various technologies...</p>
-        </div>
-    </section>
-
-    <section class="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>PHP</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            
-        </div>
-    </section>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -148,15 +60,77 @@
         button:hover {
             background-color: #555;
         }
-    </style>
 
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin: 8px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
 <body>
 
     <header>
-        <h1>Contact Us</h1>
+        <div class="container">
+            <h1>Nikunj Panthi</h1>
+            <p>Web Developer</p>
+        </div>
     </header>
 
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am a passionate web developer with expertise in various technologies...</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Add your project content here -->
+        </div>
+    </section>
+
     <section>
+        <div class="gallery">
+            <h2>MY PHOTOS</h2>
+            <img src="C:\Users\panth\OneDrive\Pictures\photos\nikunj.jpg.jpeg" alt="Nikunj">
+            <img src="C:\Users\panth\OneDrive\Pictures\M31\5star.heic" alt="During the leadership training seminar at Park Village Resort">
+            <img src="C:\Users\panth\OneDrive\Pictures\M31\IMG_20221021_195323_578.jpg" alt="Photo I liked the most earlier">
+            <!-- Add more images as needed -->
+        </div>
         <form id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -196,17 +170,6 @@
             // You can add additional logic such as showing a thank you message, redirecting, etc.
         }
     </script>
-
-
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Nikunj</p>
-        </div>
-    </footer>
-</body>
-</html>
-
 
     <footer>
         <div class="container">
